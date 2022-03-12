@@ -82,7 +82,5 @@ elementoBtn.addEventListener('click', () =>{
         nome.innerText = 'Choose your class' 
         texto.innerText = ``;
         elementoBtn.value = 'all' 
-        img.setAttribute('id', 'imgR');
-
     }
 })
