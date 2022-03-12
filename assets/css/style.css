@@ -42,13 +42,6 @@ body{
     border-radius: 20px;
 }
 
-#imgR{
-    display: flex;
-    /* height: 100%; */
-    border-radius: 20px;
-    /* border: red solid 2px; */
-}
-
 #imgCont{
     height: 55vh;
 }
