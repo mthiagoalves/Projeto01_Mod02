@@ -83,3 +83,32 @@ body{
 	background: #443806;
 	transition: all 0.7s cubic-bezier(0.42, 0, 0.58, 1);
 }
+
+.table_atributes{
+   background-color: rgb(0, 0, 0, 0);
+   border-bottom-color: rgb(180, 178, 176);
+   border-bottom-style: none;
+   border-bottom-width: 0px;
+   border-collapse: separate;
+   border-image-outset: 0;
+   border-image-repeat: stretch;
+   border-image-slice: 100%;
+   border-image-source: none;
+   border-image-width: 1;
+   border-left-color: rgb(180, 178, 176);
+   border-left-style: none;
+   border-left-width: 0px;
+   border-right-color: rgb(180, 178, 176);
+   border-right-style: none;
+   border-right-width: 0px;
+   border-top-color: rgb(180, 178, 176);
+   border-top-style: none;
+   border-top-width: 0px;
+   box-sizing: border-box;
+   color: #fff;
+   display: table;
+   font-size: 14px;
+   line-height: 20px;
+   
+
+}
