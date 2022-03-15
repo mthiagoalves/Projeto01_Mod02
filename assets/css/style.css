@@ -18,6 +18,8 @@ body{
 
 .container{
     display: flex;
+    margin: auto;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;  
@@ -60,7 +62,7 @@ body{
 	transition: all 0.7s cubic-bezier(0.42, 0, 0.58, 1);
     width: 140px;
     height: 40px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 #btn:hover {
@@ -89,45 +91,21 @@ body{
 
 .char{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row;
+    justify-content: center;
   
 }
 
-.atributes{
-    justify-content: center;
-    align-items: center;
-    
-}
-
-/* .attributes_css{
-    height: auto;
-    border: 2px rgb(40, 40, 40) solid;
-    margin: 10px;
-    justify-content: space-between;
-} */
-
-
+#control_display{
+    padding-top: 130px;
+    border-collapse: collapse;
+    padding-bottom: 180px;
+} 
 
 .attributes_css{
     background-color: #1f1e1e;
     opacity: 75%;
-    border-left: 100px;
-    border-right: 100px;
-    border: rgb(180, 178, 176) solid;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    color: rgb(180, 178, 176);
-    font-size: 13px;
     height: auto;
-    line-height: 10px;
-    text-indent: -5px;
-    text-size-adjust: 100%;
-    vertical-align: middle;
-    width: 184px;
-    text-align: center;     
-
+    border: 2px rgb(40, 40, 40) solid;
+    width: auto;
 }
-
-
-
