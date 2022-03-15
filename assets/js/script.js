@@ -1,7 +1,7 @@
 const nome = document.getElementById('nome'); 
 const texto = document.querySelector('#texto'); 
 const img = document.querySelector('#imagem');
-const atributes = document.querySelector('#tittle_atribute');
+const atributes = document.querySelector('.attributes');
 let elementoBtn = document.querySelector('#btn'); 
 const atributesVigor = document.querySelector('#vigor');
 const atributesDexterity = document.querySelector('#dexterity');
@@ -11,13 +11,17 @@ const atributesEndurance = document.querySelector('#endurance');
 const atributesFaith = document.querySelector('#faith');
 const atributesStrength = document.querySelector('#strength');
 const atributesArcane = document.querySelector('#arcane');
+const controlDisplay = document.querySelector('#control_display');
+
 
 elementoBtn.addEventListener('click', () =>{
   
     if(elementoBtn.value == 'all'){
         
         img.src = './assets/media/01.png';
+
         nome.textContent = 'Wretch';
+        controlDisplay.style.display = 'flex';
         texto.innerText = `A poor, purposeless sod, naked as the day they were born.`;
         atributes.textContent = `Atributes`;
         atributesVigor.textContent = 'Vigor: 10';
@@ -179,6 +183,7 @@ elementoBtn.addEventListener('click', () =>{
 
         img.src = './assets/media/all.png' 
         nome.innerText = 'Choose your class' 
+        controlDisplay.style.display = 'none';
         texto.innerText = ``;
         atributes.textContent = ``
         atributesVigor.textContent = '';
