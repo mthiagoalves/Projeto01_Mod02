@@ -106,8 +106,6 @@ footer{
     justify-content: center;
     background-color: rgba(41, 40, 40, 0.75);
     border-radius: 20px;
-    box-shadow: 15px 10px 10px black;
-    padding-right: 25px;
 }
 
 #control_display{
@@ -122,4 +120,9 @@ footer{
     height: auto;
     border: 2px rgb(148, 148, 148) solid;
     width: auto;
+}
+
+.table_attributes{
+    display: flex;
+    padding-right: 2rem;
 }
