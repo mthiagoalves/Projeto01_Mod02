@@ -2,7 +2,7 @@ const nome = document.getElementById('nome');
 const texto = document.querySelector('#texto'); 
 const img = document.querySelector('#imagem');
 const atributes = document.querySelector('#title_attribute');
-let elementoBtn = document.querySelector('#btn'); 
+let btn = document.querySelector('#btn'); 
 const atributesVigor = document.querySelector('#vigor');
 const atributesDexterity = document.querySelector('#dexterity');
 const atributesMind = document.querySelector('#mind');
@@ -12,14 +12,14 @@ const atributesFaith = document.querySelector('#faith');
 const atributesStrength = document.querySelector('#strength');
 const atributesArcane = document.querySelector('#arcane');
 const controlDisplay = document.querySelector('#control_display');
+const box = document.querySelector(".char")
+   
 
-
-elementoBtn.addEventListener('click', () =>{
+btn.addEventListener('click', () =>{
   
-    if(elementoBtn.value == 'all'){
+    if(btn.value == 'all'){
         
         img.src = './assets/media/01.png';
-
         nome.textContent = 'Wretch';
         controlDisplay.style.display = 'flex';
         texto.innerText = `A poor, purposeless sod, naked as the day they were born.`;
@@ -32,10 +32,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 10';
         atributesStrength.textContent = 'Strength: 10';
         atributesArcane.textContent = 'Arcane: 10';
+        btn.value = 'segundo';
 
-        elementoBtn.value = 'segundo';
-
-    } else if(elementoBtn.value == 'segundo') { 
+    } else if(btn.value == 'segundo') { 
 
         img.src = './assets/media/02.png' 
         nome.innerText = 'Samurai' 
@@ -49,9 +48,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 16';
         atributesStrength.textContent = 'Strength: 11';
         atributesArcane.textContent = 'Arcane: 10';
-        elementoBtn.value = 'terceiro' 
+        btn.value = 'terceiro' 
 
-    } else if(elementoBtn.value == 'terceiro') { 
+    } else if(btn.value == 'terceiro') { 
 
         img.src = './assets/media/03.png' 
         nome.innerText = 'Astrologer' 
@@ -65,9 +64,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 7';
         atributesStrength.textContent = 'Strength: 8';
         atributesArcane.textContent = 'Arcane: 9';
-        elementoBtn.value = 'quarto' 
+        btn.value = 'quarto' 
 
-    } else if(elementoBtn.value == 'quarto') { 
+    } else if(btn.value == 'quarto') { 
 
         img.src = './assets/media/04.png' 
         nome.innerText = 'Bandit' 
@@ -81,9 +80,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 8';
         atributesStrength.textContent = 'Strength: 9';
         atributesArcane.textContent = 'Arcane: 14';
-        elementoBtn.value = 'quinto' 
+        btn.value = 'quinto' 
 
-    } else if(elementoBtn.value == 'quinto') { 
+    } else if(btn.value == 'quinto') { 
 
         img.src = './assets/media/05.png' 
         nome.innerText = 'Confessor' 
@@ -97,9 +96,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 14';
         atributesStrength.textContent = 'Strength: 12';
         atributesArcane.textContent = 'Arcane: 9';
-        elementoBtn.value = 'sexto' 
+        btn.value = 'sexto' 
 
-    } else if(elementoBtn.value == 'sexto') { 
+    } else if(btn.value == 'sexto') { 
         
         img.src = './assets/media/06.png' 
         nome.innerText = 'Hero' 
@@ -113,9 +112,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 8';
         atributesStrength.textContent = 'Strength: 16';
         atributesArcane.textContent = 'Arcane: 11';
-        elementoBtn.value = 'setimo' 
+        btn.value = 'setimo' 
 
-    } else if(elementoBtn.value == 'setimo') { 
+    } else if(btn.value == 'setimo') { 
 
         img.src = './assets/media/07.png' 
         nome.innerText = 'Prophet' 
@@ -129,9 +128,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 16';
         atributesStrength.textContent = 'Strength: 11';
         atributesArcane.textContent = 'Arcane: 10';
-        elementoBtn.value = 'oitavo' 
+        btn.value = 'oitavo' 
 
-    } else if(elementoBtn.value == 'oitavo') { 
+    } else if(btn.value == 'oitavo') { 
 
         img.src = './assets/media/08.png' 
         nome.innerText = 'Warrior' 
@@ -145,9 +144,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 8';
         atributesStrength.textContent = 'Strength: 10';
         atributesArcane.textContent = 'Arcane: 9';
-        elementoBtn.value = 'nono' 
+        btn.value = 'nono' 
 
-    } else if(elementoBtn.value == 'nono') { 
+    } else if(btn.value == 'nono') { 
 
         img.src = './assets/media/09.png' 
         nome.innerText = 'Vagabond' 
@@ -161,9 +160,9 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 9';
         atributesStrength.textContent = 'Strength: 14';
         atributesArcane.textContent = 'Arcane: 7';
-        elementoBtn.value = 'decimo' 
+        btn.value = 'decimo' 
 
-    } else if(elementoBtn.value == 'decimo') { 
+    } else if(btn.value == 'decimo') { 
 
         img.src = './assets/media/10.png' 
         nome.innerText = 'Prisoner' 
@@ -177,7 +176,7 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 66';
         atributesStrength.textContent = 'Strength: 11';
         atributesArcane.textContent = 'Arcane: 9';
-        elementoBtn.value = 'primeiro' 
+        btn.value = 'primeiro' 
 
     } else { 
 
@@ -194,6 +193,6 @@ elementoBtn.addEventListener('click', () =>{
         atributesFaith.textContent = '';
         atributesStrength.textContent = '';
         atributesArcane.textContent = '';
-        elementoBtn.value = 'all' 
+        btn.value = 'all' 
     }
 })
