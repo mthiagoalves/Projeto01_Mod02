@@ -12,7 +12,7 @@ const atributesFaith = document.querySelector('#faith');
 const atributesStrength = document.querySelector('#strength');
 const atributesArcane = document.querySelector('#arcane');
 const controlDisplay = document.querySelector('#control_display');
-const box = document.querySelector(".char")
+const box = document.querySelector(".char");
    
 
 btn.addEventListener('click', () =>{
@@ -48,7 +48,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 16';
         atributesStrength.textContent = 'Strength: 11';
         atributesArcane.textContent = 'Arcane: 10';
-        btn.value = 'terceiro' 
+        btn.value = 'terceiro'; 
 
     } else if(btn.value == 'terceiro') { 
 
@@ -64,7 +64,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 7';
         atributesStrength.textContent = 'Strength: 8';
         atributesArcane.textContent = 'Arcane: 9';
-        btn.value = 'quarto' 
+        btn.value = 'quarto'; 
 
     } else if(btn.value == 'quarto') { 
 
@@ -80,7 +80,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 8';
         atributesStrength.textContent = 'Strength: 9';
         atributesArcane.textContent = 'Arcane: 14';
-        btn.value = 'quinto' 
+        btn.value = 'quinto'; 
 
     } else if(btn.value == 'quinto') { 
 
@@ -96,7 +96,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 14';
         atributesStrength.textContent = 'Strength: 12';
         atributesArcane.textContent = 'Arcane: 9';
-        btn.value = 'sexto' 
+        btn.value = 'sexto'; 
 
     } else if(btn.value == 'sexto') { 
         
@@ -112,7 +112,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 8';
         atributesStrength.textContent = 'Strength: 16';
         atributesArcane.textContent = 'Arcane: 11';
-        btn.value = 'setimo' 
+        btn.value = 'setimo';
 
     } else if(btn.value == 'setimo') { 
 
@@ -128,7 +128,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 16';
         atributesStrength.textContent = 'Strength: 11';
         atributesArcane.textContent = 'Arcane: 10';
-        btn.value = 'oitavo' 
+        btn.value = 'oitavo'; 
 
     } else if(btn.value == 'oitavo') { 
 
@@ -144,7 +144,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 8';
         atributesStrength.textContent = 'Strength: 10';
         atributesArcane.textContent = 'Arcane: 9';
-        btn.value = 'nono' 
+        btn.value = 'nono'; 
 
     } else if(btn.value == 'nono') { 
 
@@ -160,7 +160,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 9';
         atributesStrength.textContent = 'Strength: 14';
         atributesArcane.textContent = 'Arcane: 7';
-        btn.value = 'decimo' 
+        btn.value = 'decimo'; 
 
     } else if(btn.value == 'decimo') { 
 
@@ -176,7 +176,7 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = 'Faith: 66';
         atributesStrength.textContent = 'Strength: 11';
         atributesArcane.textContent = 'Arcane: 9';
-        btn.value = 'primeiro' 
+        btn.value = 'primeiro'; 
 
     } else { 
 
@@ -193,6 +193,6 @@ btn.addEventListener('click', () =>{
         atributesFaith.textContent = '';
         atributesStrength.textContent = '';
         atributesArcane.textContent = '';
-        btn.value = 'all' 
+        btn.value = 'all'; 
     }
 })
