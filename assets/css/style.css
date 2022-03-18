@@ -12,7 +12,7 @@ body{
     background-image: url("/assets/media/2651907.jpg");
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     justify-content: center;
     align-items: center;  
 }
